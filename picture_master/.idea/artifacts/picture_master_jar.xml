@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="picture_master:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/picture_master_jar</output-path>
+    <root id="archive" name="picture_master.jar">
+      <element id="module-output" name="picture_master" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="220.0" style="-fx-background-radius: 15px; -fx-border-radius: 13px; -fx-background-color: #BFDADE; -fx-border-width: 3; -fx-border-color: #8B8B7A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.scau.sec.se.controllers.DdUIcontroller">
+   <children>
+      <Pane layoutX="6.0" layoutY="5.0" prefHeight="115.0" prefWidth="209.0">
+         <children>
+            <Text fx:id="text" fill="WHITE" layoutX="11.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are you sure to delete?" wrappingWidth="186.240234375">
+               <font>
+                  <Font name="Bradley Hand ITC" size="27.0" />
+               </font>
+            </Text>
+            <Button fx:id="Setfalse" layoutX="56.0" layoutY="79.0" mnemonicParsing="false" onAction="#setfalse" prefHeight="28.0" prefWidth="28.0" text="关闭" />
+            <Button fx:id="Settrue" layoutX="14.0" layoutY="79.0" mnemonicParsing="false" onAction="#settrue" prefHeight="28.0" prefWidth="28.0" text="关闭" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
